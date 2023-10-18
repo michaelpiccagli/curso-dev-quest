@@ -1,0 +1,32 @@
+.first-letter::first-letter {
+    color: coral;
+}
+
+.first-line::first-line {
+    color: coral;
+}
+
+.first-line::first-letter {
+    color: blue;
+}
+
+li::marker {
+    color: red;
+    font-size: 23px;
+}
+
+.before::before {
+    content: "";
+    background: url(./itatchi.jpg) center center no-repeat;
+    display: inline-block;
+    width: 235px;
+    height: 418px;
+}
+
+.after::after {
+    content: "";
+    background: url(./itatchi.jpg) center center no-repeat;
+    display: inline-block;
+    width: 235px;
+    height: 418px;
+}
