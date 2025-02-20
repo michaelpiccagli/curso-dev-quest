@@ -1,5 +1,11 @@
 html {
     font-family: 'Roboto Condensed', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/god-of-war-ragnarok.jpg) no-repeat;
+    background-size: cover;
 }
 
 .container {
