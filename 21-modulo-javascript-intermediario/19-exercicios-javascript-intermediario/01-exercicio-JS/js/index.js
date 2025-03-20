@@ -25,7 +25,12 @@ btnTrocaCor.addEventListener("click", trocarCor);
 
 // Passo 4 - Para mudar a cor de fundo podemos adicionar e remover as classes que o elemento tem
 function trocarCor() {
-  quadradoAzul.classList.remove("azul");
-  quadradoAzul.classList.add("amarelo");
+  if (quadradoAzul.classList.contains("azul")) {
+    quadradoAzul.classList.remove("azul")
+    quadradoAzul.classList.add("amarelo")
+  } else {
+    quadradoAzul.classList.remove("amarelo")
+    quadradoAzul.classList.add("azul")
+  }
 }
 
