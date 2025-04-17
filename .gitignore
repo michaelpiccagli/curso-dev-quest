@@ -1,0 +1,19 @@
+# Ignorar dependências
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Diretório do VS Code
+.vscode/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ambiente (caso use futuramente)
+.env
+.env.local
+.env.*.local

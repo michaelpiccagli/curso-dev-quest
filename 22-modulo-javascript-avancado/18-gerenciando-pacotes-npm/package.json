@@ -1,0 +1,26 @@
+{
+  "name": "usando_npm",
+  "version": "1.0.0",
+  "description": "Projeto de teste de npm do módulo de JavaScript avançado do curso DevQuest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelpiccagli/curso-dev-quest.git"
+  },
+  "keywords": [
+    "javascript",
+    "npm"
+  ],
+  "author": "Michael Piccagli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelpiccagli/curso-dev-quest/issues"
+  },
+  "homepage": "https://github.com/michaelpiccagli/curso-dev-quest#readme",
+  "dependencies": {
+    "kind-of": "^6.0.3"
+  }
+}
