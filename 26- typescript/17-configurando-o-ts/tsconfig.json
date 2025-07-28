@@ -1,0 +1,8 @@
+// Documentação TSCONFIG>JSON
+//https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#handbook-content
+
+{
+  "compilerOptions": {
+    "noImplicitAny": true
+  }
+}

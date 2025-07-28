@@ -1,0 +1,1 @@
+const stringNumber: [string, number, boolean] = ['michael', 123, true];
